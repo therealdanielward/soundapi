@@ -1,0 +1,19 @@
+{
+  "name": "mebudgetapi",
+  "version": "1.0.0",
+  "description": "API for budget application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Ward",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "express-public-ip": "^1.0.1",
+    "hbs": "^4.0.6",
+    "mongoose": "^5.7.7",
+    "stylus": "^0.54.7"
+  }
+}

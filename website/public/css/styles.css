@@ -1,0 +1,176 @@
+html  {
+    /* position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    height: 100%;
+    margin: auto;
+}
+
+body {
+    background: url(../images/main-bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #343a40;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+    background-size: calc(100% + 50px);
+
+}
+
+.header {
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+
+    right: 0px;
+    z-index: 3;
+
+}
+
+.main {
+
+    position: absolute;
+    width: 100%;
+    /* height: 82%; */
+    top: 56px;
+    bottom: 61px;
+    overflow: auto;
+}
+
+.footer {
+    position: absolute;
+    overflow: hidden;
+    
+    left: 0px;
+    height: 61px;
+
+    right: 0px;
+    bottom: 0px;
+    z-index: 3;
+
+}
+
+.footer-nav {
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #343a40;
+}
+
+.main-banner {
+    margin: 10% 10% 10% 10%;
+}
+
+.pink-impact {
+    color: #E83E8C;
+}
+
+.about-container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.hp-message {
+    background-color: #ffffff;
+    font-style: italic;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 0px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.api-container {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 1px 1px 1px 0;
+}
+
+footer a:hover {
+    color: #6f4dac;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #6f4dac;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .display-1 {
+        font-size: 3.5rem;
+        font-weight: 200;
+    }
+
+    .display-5 {
+        font-size: 2.1rem;
+        font-weight: 400;
+    }
+
+    body {
+        background: url(../images/main-bg.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+        background-size: auto;
+        background-color: #343a40;
+
+    }
+
+   
+
+    /* .hp-message {
+        bottom: 120px;
+    } */
+
+}
